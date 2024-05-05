@@ -1,0 +1,105 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: Arial;
+    margin: 0px;
+    padding: 0px;
+    background: url(images/logoDetoure.png) top left repeat;
+    background-size: 150px;
+}
+
+main{
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    background-color: black;
+    padding: 30px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu{
+    color: yellow;
+    text-shadow: 1px 1px 2px white;
+    margin: 0 10px;
+}
+
+h1 {
+    color: yellow;
+    text-shadow: 1px 1px 2px white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav {
+    text-align: center;
+}
+
+#copyright{
+    color: yellow;
+}
+
+img{
+    width: 100%;
+}
+
+.artist{
+    display: flex;
+    background-color: lightgray;
+    margin: 20px;
+    padding: 20px;
+}
+.food{
+    display: flex;
+    background-color: lightgray;
+    margin: 20px;
+    padding: 20px;
+}
+
+.textFood{
+    flex-grow: 1;
+}
+
+.photoFood{
+    width: 300px;
+}
+
+.textArtist{
+    padding: 20px;
+}
+
+.textArtist p{
+    padding: 0;
+    margin: 0;
+}
+
+.textArtist h2{
+    text-align: left;
+}
+
+
+.photoArtists{
+    width: 100px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    margin: 10px;
+    padding: 10px;
+}
+
